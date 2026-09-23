@@ -79,7 +79,7 @@ func createOneCourse(w http.ResponseWriter, r *http.Request) {
 	}
 
 	name := course.CourseName
-	fmt.Println("NAme", course.CourseName)
+	fmt.Println("Name", course.CourseName)
 
 	// check duplicate course name
 	for _, course := range courses {
